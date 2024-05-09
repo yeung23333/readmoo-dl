@@ -40,7 +40,7 @@ module ReadmooDL
     end
 
     def login
-      driver = Selenium::WebDriver.for :chrome
+      driver = Selenium::WebDriver.for :Microsoft Edge
       driver.navigate.to(ReadmooDL::LOGIN_URL)
 
       driver = login_selenium(driver)
